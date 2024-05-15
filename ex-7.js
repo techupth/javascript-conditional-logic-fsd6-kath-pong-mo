@@ -1,5 +1,9 @@
 //Start coding here
-const greeting = "Hello ! 😁";
+const greeting = () => {
+    console.log("Hello ! 😁");
+    return;
+}
+
 
 greeting();
 
