@@ -3,9 +3,9 @@
 let lightBulbStatus = "Off";
 
 //Start coding here
-console.log(
-  lightBulbStatus === "Off"
-    ? "Light bulb is Off."
-    : "Please choose the correct input (On/Off)"
-);
+
+lightBulbStatus === "Off"
+  ? console.log("Light bulb is Off.")
+  : console.log("Please choose the correct input (On/Off)");
+
 console.log(lightBulbStatus);
